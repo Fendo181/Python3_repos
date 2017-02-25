@@ -6,12 +6,11 @@ html = urlopen("http://pythonscraping.com/pages/page3.html")
 bsObj = BeautifulSoup(html,"html.parser")
 
 try:
-    #先頭が(../img/gifts/img),末尾が(.jpg)のファイルを抽出してくる。
-    images=bsObj.findAll("img",{"src":re.compile("\.\.\/img\/gifts/img.*\.jpg")})
+    #2つの属性をもつ要素をLambda式で記述する。
+    tag=bsObj.findAll(lambda tag: len(tag.attrs)==2)
 except AttributeError as e:
     print("なんらかのエラー")
 
-for image in images:
-    print(image["src"])
+print(tag)
 
 
