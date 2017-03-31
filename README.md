@@ -8,4 +8,4 @@ RaspberyPiでなんとなくpython触っていたのですが、本腰を上げ�
 - 2017_01_06
   - 勉強開始。
 - 2017_02_21
-  - [Python3基礎文法](http://qiita.com/Fendo181/private/a934e4f94021115efb2e)
+  - [Python3基礎文法](http://qiita.com/Fendo181/items/a934e4f94021115efb2e)
