@@ -19,6 +19,4 @@ def fact(n):
     #再帰呼び出す
     print(n)
     return n*fact(n-1)
-
-
 print(fact(1))
